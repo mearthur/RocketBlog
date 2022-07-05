@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+.menu2{
+    margin-top: 64px;
+    margin-bottom: 69px;
+    font-size: 22px;
+    font-style: normal;
+}
+body{
+    background: var(--white);
+    height: 100%;
+
+}
+.back{
+    background-color: #290742;
+    margin-top:0;
+    border-bottom: 3px solid var(--green);
+
+}
+
+.text{
+    font-family: 'poppins';
+    color: var(--button-bg);
+    display: flex;
+    padding-bottom: 1.2rem;
+    width: 85%;
+    margin-top: 1.8rem;
+
+}
+.text1{
+    font-family: 'roboto';
+    font-size: 17px;
+    font-weight: normal;
+    color: var(--white);
+    display: flex;
+    padding-bottom: 1.2rem;
+    width: 85%;
+    margin-top: 1.8rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    list-style-type: none;
+    color: var(--white);
+
+}
+
+.menu{
+    font-family: 'roboto';
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content:space-between;
+    gap: 30px;
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+li{
+    margin: 1.3rem;
+}
+.buscar{
+    display: flex;
+}
+
+button{
+    background-color: var(--button-bg);
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+    border: none;
+
+}
+.link{
+    font-family: 'roboto';
+    color: var(--button-bg);
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    
+}
+svg{
+    display: flex;
+}
+section{
+    display: flex;
+    gap: 30px;
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.img2{
+    margin-bottom: 0.2rem;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.data{
+    margin-bottom: 1rem;
+}
+p{
+    font-family: 'roboto';
+
+    margin: 1.2rem 0;
+}
+h2{
+    font-family: 'poppins';
+    color: var(--purple-bg);
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 1,5rem 0;
+
+}
+.containerabaixo{
+    display: flex;
+    align-items: center;
+    justify-self:center;
+    padding: 0;
+    gap: 30px;
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 67px;
+
+
+}
+.post{
+    width: 100%;
+}
+.imgblog{
+    width: 100%;
+}
